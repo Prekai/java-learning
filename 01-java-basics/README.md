@@ -1,4 +1,4 @@
-# Topic 1 – Java Basics
+# Topic 1 – Java Basics in Jshell
 
 ## What was covered
 
