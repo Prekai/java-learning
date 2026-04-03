@@ -18,13 +18,15 @@ This repository documents my learning journey towards becoming a Java Automation
 - Each topic folder contains:
   - `README.md`
   - `challenge/`
+  - `follow-along/`
 
 Example:
 - `01-java-basics/`
   - `README.md`
   - `challenge/`
+  - `follow-along/`
 
 ## Progress
 | Total Topics | Finished | Remaining |
 |--------------|----------|-----------|
-| 45           | 3        | 42        |
+| 45           | 4        | 41        |
