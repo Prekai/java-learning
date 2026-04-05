@@ -1,4 +1,4 @@
-public class Challenge {
+public class firstChallenge {
     public static void main(String[] args) {
 
             boolean newGameOver = true;

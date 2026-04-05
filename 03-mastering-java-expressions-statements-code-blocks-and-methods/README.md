@@ -27,8 +27,14 @@
 - To call or invoke a method use the method name in the code
     -If the method defined parameters you have to pass variables, values or expressions
     -The type, number and order of parameters have to fulfill the method requirements
+    -2 method can have the same name until the parameters are different
 - Parameters and arguments are term that used interchangably meanwhile there is a main diference between the two
     - Parameter the input variable decleared in the method header
     - Argument the actual value or expression passed to that input when the method is called
+- A method can have a type
+    - The type is placed before the name of the method
+    - At the end of the method a `return` statement is required, that will return the result from the method
+    - A methode that returns a value can used in expressions
+
 
 
