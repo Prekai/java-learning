@@ -1,40 +1,63 @@
-# 03 Mastering Java Expressions Statements Code Blocks and Methods
+# Section 03 - Mastering Java Expressions, Statements, Code Blocks, and Methods
 
-## Keywords types
-- `ReservedKeywords` act as a keyword in any circumstances
-- `ContextualKeywords` act as a keyword in specific cases
+## Keyword Types
+Java uses keywords as part of its language rules.
 
-## Code hierarcy
-- `Expression` is a single value
-- `Statement` is a standalone unit of work
-- `Code block` is a set of zero, one or more statments groupped with a single goal
+- `Reserved keywords` always have a special meaning in Java and cannot be used as names for variables, methods, or classes.
+- `Contextual keywords` act like keywords only in specific language features or situations.
+
+## Code Hierarchy
+Java code is built from smaller parts that work together.
+
+- An `expression` is a piece of code that produces a value.
+- A `statement` is a complete instruction that tells the program to do something.
+- A `code block` is a group of zero, one, or more statements enclosed in `{}` and treated as a single unit.
 
 ## Readability
-- To increase readability is the best practice to use
-    - Vertical and horizontal spaces (compiler fetch it out first before reading the code)
-    - Use multiple lines of code
-    - Use indentation
+Readable code is easier to understand, debug, and maintain.
 
-## If else statment
-- A conditional logic where the first true condition will be executed.
-- If the first condition is not fulfilled the next `} else if {` or `} else {` statment will be executed if they are true.
-- If none of the statements will be true the codeblocks will be skipped.
+Best practices for readability:
+- Use vertical and horizontal spacing to separate parts of the code clearly.
+- Break long code into multiple lines when it improves clarity.
+- Use indentation to show the structure of code blocks.
+- Write code in a way that is easy for humans to read, even though the compiler usually ignores extra whitespace.
 
-## Method
-- Is a block of code within a class and executed when the object called
-- A method inside a method is not allowed
-- Multiple method is allowed in one class
-- To call or invoke a method use the method name in the code
-    -If the method defined parameters you have to pass variables, values or expressions
-    -The type, number and order of parameters have to fulfill the method requirements
-    -2 method can have the same name until the parameters are different
-- Parameters and arguments are term that used interchangably meanwhile there is a main diference between the two
-    - Parameter the input variable decleared in the method header
-    - Argument the actual value or expression passed to that input when the method is called
-- A method can have a type
-    - The type is placed before the name of the method
-    - At the end of the method a `return` statement is required, that will return the result from the method
-    - A methode that returns a value can used in expressions
+## If-Else Statement
+The `if-else` structure is used for conditional logic.
 
+- The program checks conditions from top to bottom.
+- The first condition that evaluates to `true` will have its code block executed.
+- If an `if` condition is `false`, the program continues to the next `else if` condition.
+- The `else` block runs only when none of the previous conditions are `true`.
+- If there is no `else` block and no condition is `true`, all code blocks are skipped.
 
+## Methods
+A method is a block of code inside a class that performs a specific task when it is called.
 
+- Methods help organise code into reusable parts.
+- A method cannot be declared inside another method in Java.
+- A single class can contain multiple methods.
+- A method is called by using its name in the code.
+  - If the method has parameters, you must pass matching values, variables, or expressions.
+  - The type, number, and order of arguments must match the method definition.
+
+### Parameters and Arguments
+These two terms are related, but they are not the same.
+
+- A `parameter` is a variable declared in the method header.
+- An `argument` is the actual value or expression passed to the method when it is called.
+
+### Method Overloading
+Java allows multiple methods to have the same name as long as their parameter lists are different.
+
+- This is called `method overloading`.
+- The difference can be in the number, type, or order of parameters.
+- Default value cannot be set for Method Overloading, but similar behaviour is achiavable with additional methods.
+
+### Return Types
+A method can either return a value or return nothing.
+
+- The return type is written before the method name.
+- A method with a return type must end with a `return` statement that gives back a result of the correct type.
+- A method with the return type `void` does not return a value.
+- A method that returns a value can be used in expressions, assigned to variables, or passed into other methods.
