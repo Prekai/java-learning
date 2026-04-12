@@ -29,4 +29,4 @@ Example:
 ## Progress
 | Total Topics | Finished | Remaining |
 |--------------|----------|-----------|
-| 45           | 4        | 41        |
+| 45           | 5        | 40        |
